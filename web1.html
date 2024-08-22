@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./web1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="web2">
+      <div class="contact-wrapper">
+        <a class="contact">Contact</a>
+      </div>
+      <div class="frame-parent">
+        <div class="container">
+          <img src="https://res.cloudinary.com/dnkistviz/image/upload/v1724566765/Fb_i02mlz.jpg">
+          <img src="https://res.cloudinary.com/dnkistviz/image/upload/v1724566765/IG_mvnp6h.jpg">
+          <img src="https://res.cloudinary.com/dnkistviz/image/upload/v1724566765/Gmail_gjqrie.jpg">
+        </div>
+        <div class="arrow-left-circle-wrapper">
+          <img
+            class="arrow-left-circle-icon"
+            loading="lazy"
+            alt=""
+            src="https://res.cloudinary.com/dnkistviz/image/upload/v1724566764/arrow-leftcircle_rpm4c4.svg"
+            id="arrowLeftCircle"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var arrowLeftCircle = document.getElementById("arrowLeftCircle");
+      if (arrowLeftCircle) {
+        arrowLeftCircle.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      </script>
+  </body>
+</html>

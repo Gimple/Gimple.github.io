@@ -1,0 +1,118 @@
+.contact {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  text-shadow: 2px 0 0#000, 0 2px 0#000, -2px 0 0#000, 0-2px 0#000;
+}
+.contact-wrapper {
+  width: 344px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.mask-group-icon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 200px;
+}
+.container{
+  max-width:100%;
+  max-height: 450px;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.container img{
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid rgba(225, 225, 225, 225);
+  transition: all ease-in-out 0.5s;
+}
+.container img:hover{
+  width: 100%;
+}
+.arrow-left-circle-icon {
+  height: 85px;
+  width: 85px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.arrow-left-circle-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-parent,
+.web2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent {
+  width: 600px;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 100%;
+}
+.web2 {
+  width: 100%;
+  height: 842px;
+  position: relative;
+  background-color: var(--color-gray);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-10xl) var(--padding-xl) var(--padding-65xl) 0px;
+  box-sizing: border-box;
+  gap: 10px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--h1);
+}
+@media screen and (max-width: 750px) {
+  .contact {
+    font-size: 32px;
+  }
+  .container{
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact {
+    font-size: 24px;
+  }
+  .container {
+    width: 100%;
+  }
+  .mask-group-parent {
+    justify-content: center;
+    grid-template-columns: minmax(81px, 1fr);
+  }
+  .frame-parent {
+    gap: 10px;
+  }
+  .web2 {
+    gap: 10px;
+  }
+  .container{
+    flex: 1;
+  }
+}
