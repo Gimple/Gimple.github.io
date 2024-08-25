@@ -1,6 +1,7 @@
 body {
   margin: 0;
   line-height: normal;
+  background-color: var(--color-gray);
 }
 
 :root {

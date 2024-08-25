@@ -186,7 +186,7 @@
 .frame-group {
   width: 1242px;
   align-items: flex-start;
-  gap: 50px;
+  gap: 50px; 
   max-width: 100%;
 }
 .web {
