@@ -36,6 +36,7 @@
   border-radius: 10px;
   border: 2px solid rgba(225, 225, 225, 225);
   transition: all ease-in-out 0.5s;
+  cursor: pointer;
 }
 .container img:hover{
   width: 100%;

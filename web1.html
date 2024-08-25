@@ -22,9 +22,9 @@
       </div>
       <div class="frame-parent">
         <div class="container">
-          <img src="https://res.cloudinary.com/dnkistviz/image/upload/v1724566765/Fb_i02mlz.jpg">
-          <img src="https://res.cloudinary.com/dnkistviz/image/upload/v1724566765/IG_mvnp6h.jpg">
-          <img src="https://res.cloudinary.com/dnkistviz/image/upload/v1724566765/Gmail_gjqrie.jpg">
+          <img src="https://res.cloudinary.com/dnkistviz/image/upload/v1724566765/Fb_i02mlz.jpg", id="Pic1">
+          <img src="https://res.cloudinary.com/dnkistviz/image/upload/v1724566765/IG_mvnp6h.jpg", id="Pic2">
+          <img src="https://res.cloudinary.com/dnkistviz/image/upload/v1724566765/Gmail_gjqrie.jpg", id="Pic3">
         </div>
         <div class="arrow-left-circle-wrapper">
           <img
@@ -43,6 +43,24 @@
       if (arrowLeftCircle) {
         arrowLeftCircle.addEventListener("click", function (e) {
           window.location.href = "./index.html";
+        });
+      }
+      var Pic1 = document.getElementById("Pic1");
+      if (Pic1) {
+        Pic1.addEventListener("click", function (e) {
+          window.location.href = "https://www.facebook.com/christian.bedana.77";
+        });
+      }
+      var Pic2 = document.getElementById("Pic2");
+      if (Pic2) {
+        Pic2.addEventListener("click", function (e) {
+          window.location.href = "https://www.instagram.com/gimple012?igsh=OGQ5ZDc2ODk2ZA==";
+        });
+      }
+      var Pic3 = document.getElementById("Pic3");
+      if (Pic3) {
+        Pic3.addEventListener("click", function (e) {
+          window.location.href = "https://mail.google.com/mail/u/0/#search/chirtianbedana%40gmail.com?compose=new";
         });
       }
       </script>
